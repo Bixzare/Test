@@ -54,7 +54,7 @@ export default function Chat() {
     setIsLoading(true);
 
     try {
-      const response = await fetch('http://localhost:8000/agent', {
+      const response = await fetch('https://travel-agent-backend-two.vercel.app/agent', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
